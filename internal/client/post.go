@@ -1,11 +1,11 @@
 package client
 
 import (
-	"YimiTV-go/internal/auth"
-	"YimiTV-go/internal/definition"
 	"errors"
 	"fmt"
 	"github.com/levigross/grequests"
+	"github.com/simonks2016/YimiTV-go/internal/auth"
+	"github.com/simonks2016/YimiTV-go/internal/definition"
 )
 
 func Post[data any](appId, appKey, url string, param any) (*data, error) {

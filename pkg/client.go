@@ -1,10 +1,10 @@
 package pkg
 
 import (
-	"YimiTV-go/internal/Route"
-	"YimiTV-go/internal/client"
-	"YimiTV-go/internal/definition"
 	"github.com/segmentio/ksuid"
+	"github.com/simonks2016/YimiTV-go/internal/Route"
+	"github.com/simonks2016/YimiTV-go/internal/client"
+	"github.com/simonks2016/YimiTV-go/internal/definition"
 	"time"
 )
 
@@ -36,7 +36,7 @@ func (this *Client) ValidateToken(token string) (*ValidTokenResult, error) {
 
 	//发送post请求
 	post, err := client.Post[ValidTokenResult](
-		this.AppId,
+		this.appId,
 		this.appKey,
 		Route.GetRoute(this.host, Route.ValidateToken),
 		&p)

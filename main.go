@@ -1,6 +1,6 @@
 package YimiTV_go
 
-import "YimiTV-go/pkg"
+import "github.com/simonks2016/YimiTV-go/pkg"
 
 func NewClient(appId, appSecret string, isDebug bool) *pkg.Client {
 
@@ -12,5 +12,3 @@ func NewClient(appId, appSecret string, isDebug bool) *pkg.Client {
 	}
 	return cli
 }
-
-//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
