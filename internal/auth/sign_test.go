@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"YimiTV-go/internal/definition"
 	"fmt"
+	"github.com/simonks2016/YimiTV-go/internal/definition"
 	"testing"
 )
 
