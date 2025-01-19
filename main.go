@@ -12,3 +12,5 @@ func NewClient(appId, appSecret string, isDebug bool) *pkg.Client {
 	}
 	return cli
 }
+
+//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
